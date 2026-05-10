@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global Reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;           /* No horizontal scroll, ever */
+}
+
+body {
+  min-height: 100vh;
+  /* ✅ REMOVED: display:flex and place-items:center  */
+  /* Those were centering your entire app and causing the gap */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;       /* Root stacks vertically, not centered */
+}
+
+/* ── Reset browser defaults that fight Tailwind ───────────────────────────── */
+button {
+  all: unset;                   /* Wipes border, padding, bg, font overrides */
+  cursor: pointer;              /* Keep pointer cursor */
+  box-sizing: border-box;       /* Keep box model sane */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}

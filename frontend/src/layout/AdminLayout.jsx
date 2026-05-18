@@ -1,7 +1,7 @@
 // src/layout/AdminLayout.jsx
 import { Outlet, useLocation } from "react-router-dom";
-import AdminSidebar from "../components/AdminSidebar";
-import AdminHeader  from "../components/AdminHeader";
+import AdminSidebar from "../Components/AdminSidebar";
+import AdminHeader  from "../Components/AdminHeader";
 import { useEffect, useState } from "react";
 
 const pageTitles = {

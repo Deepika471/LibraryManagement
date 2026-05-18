@@ -1,7 +1,7 @@
 // src/layouts/UserLayout.jsx
 import { Outlet, useLocation } from "react-router-dom";
-import UserSidebar from "../components/UserSidebar";
-import UserHeader  from "../components/UserHeader";
+import UserSidebar from "../Components/UserSidebar";
+import UserHeader  from "../Components/UserHeader";
 import { useEffect, useState } from "react";
 
 const pageTitles = {

@@ -7,7 +7,7 @@ const {
   clearLateFees,
   toggleStatus,
   deleteUser,
-} = require("../controllers/userController");
+} = require("../controllers/UserController");
 
 const { verifyToken, verifyAdmin } = require("../middleware/authMiddleware");
 

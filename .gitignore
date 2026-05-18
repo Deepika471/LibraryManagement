@@ -3,6 +3,8 @@ node_modules/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Logs
 logs
@@ -17,6 +19,10 @@ build/
 
 # Vite files
 .vite/
+
+# Docker
+docker-data/
+*.tar
 
 # OS files
 .DS_Store
@@ -38,3 +44,6 @@ pids
 *.pid
 *.seed
 *.pid.lock
+
+# Optional
+package-lock.json

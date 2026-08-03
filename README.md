@@ -194,14 +194,22 @@ PORT=5000
 ## 📸 Screenshots
 
 > Add screenshots of:
-- Home Page
-- Login Page
-- Registration Page
-- Admin Dashboard
-- User Dashboard
-- Manage Books
-- Manage Users
-- Issue Books
+ ### Home Page
+![Home](screenshots/HomePage.png)
+ ### Login Page
+![Login](screenshots/LoginPage.png)
+ ### Registration Page
+![Register](screenshots/RegisterPage.png)
+ ### Admin Dashboard
+![Admin Dashboard](screenshots/AdminDashboard.png)
+ ### User Dashboard
+![User Dashboard](screenshots/UserDashboard.png)
+ ### Manage Books
+![Manage Books](screenshots/ManageBooks.png)
+ ### Manage Users
+![Manage Users](screenshots/ManageUsers.png)
+ ### Issue Books
+![Issue Books](screenshots/IssueBooks.png)
 
 ---
 

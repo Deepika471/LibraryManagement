@@ -8,7 +8,7 @@ export default function Navbar() {
 
       {/* Brand */}
       <Link to="/" className="flex items-center gap-2.5">
-        <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center shadow">
+        <div className="w-8 h-8 bg-amber-800 rounded-lg flex items-center justify-center shadow">
           <Library size={16} className="text-white" />
         </div>
         <span className="text-white font-bold text-lg tracking-tight">LibraryMS</span>
@@ -18,13 +18,13 @@ export default function Navbar() {
       <div className="flex items-center gap-3">
         <Link
           to="/login"
-          className="text-white/80 hover:text-white text-sm font-medium px-4 py-1.5 rounded-lg transition-colors"
+          className=" bg-white/10 hover:bg-white/20 backdrop-blur text-white/80 hover:text-white text-sm font-medium px-5 py-2 rounded-lg transition-colors border border-white/20"
         >
           Sign In
         </Link>
         <Link
           to="/register"
-          className="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold px-4 py-1.5 rounded-lg transition-all shadow"
+          className=" bg-white/10 hover:bg-white/20 backdrop-blur text-white text-sm font-semibold px-5 py-2 rounded-lg transition-all shadow border border-white/20"
         >
           Register
         </Link>

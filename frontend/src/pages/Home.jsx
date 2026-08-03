@@ -13,11 +13,11 @@ import {
 const LIBRARY_NAME = "Athenaeum"
 const TAGLINE = "Where every book finds its reader."
 
-const STATS = [
-  { label: "Books Catalogued", value: "10,000+" },
-  { label: "Active Members", value: "5,000+" },
-  { label: "Genres", value: "50+" },
-]
+// const STATS = [
+//   { label: "Books Catalogued", value: "10,000+" },
+//   { label: "Active Members", value: "5,000+" },
+//   { label: "Genres", value: "50+" },
+// ]
 
 const FEATURES = [
   {
@@ -86,7 +86,7 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Stats */}
+            {/* Stats 
             <div className="mt-16 grid grid-cols-3 gap-8 md:gap-16 font-sans">
               {STATS.map((stat) => (
                 <div key={stat.label} className="text-center">
@@ -94,7 +94,7 @@ export default function Home() {
                   <p className="text-xs md:text-sm text-white/60 mt-1">{stat.label}</p>
                 </div>
               ))}
-            </div>
+            </div>*/}
           </div>
 
           {/* Scroll cue */}
